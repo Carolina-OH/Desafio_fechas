@@ -18,9 +18,6 @@
 
 <style scoped>
   #app {
-    font-size: 25px;
-    font-family: "Calibri", sans-serif;
-    color: darkblue;
-    background: lightblue;
+
   }
 </style>
