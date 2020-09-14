@@ -23,6 +23,7 @@ let interval
     },
     methods:{
         count:function(seg){
+          clearInterval(interval)
             const now= Date.now()          
             const end= now + ((seg+1)*1000)
             this.stopInterval(end)
